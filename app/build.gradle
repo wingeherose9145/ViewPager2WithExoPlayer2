@@ -4,7 +4,8 @@ plugins {
 }
 
 android {
-    compileSdk 35
+    namespace 'com.nikhil.viewpager2withexoplayer2'
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.nikhil.viewpager2withexoplayer2"
@@ -43,9 +44,6 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.viewpager2:viewpager2:1.1.0'
-
-    // ExoPlayer (推荐使用 Media3 更现代，但先保持兼容)
     implementation "com.google.android.exoplayer:exoplayer:2.19.1"
-
     implementation 'com.google.android.material:material:1.12.0'
 }
